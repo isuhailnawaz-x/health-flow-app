@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
 
-## Project info
+🩺 HealthHub - Your Wellness Companion
+HealthHub is a modern and intuitive wellness tracking app designed to help users improve their daily health habits. From activity logging to health monitoring, HealthHub acts as your all-in-one personal wellness companion.
 
-**URL**: https://lovable.dev/projects/911bfeff-7a2a-4c36-abcd-dbf170305fe3
+🌐 Live App: https://health-flow-app.lovable.app/
 
-## How can I edit this code?
+🧾 Overview
+Built with usability and aesthetics in mind, HealthHub empowers users to track key aspects of their health, stay motivated, and maintain long-term wellness goals — all through a smooth and responsive web interface.
 
-There are several ways of editing your application.
+🚀 Features
+📋 Track daily wellness activities and routines
 
-**Use Lovable**
+📈 Visual progress insights
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/911bfeff-7a2a-4c36-abcd-dbf170305fe3) and start prompting.
+🔔 Motivational health reminders and tips
 
-Changes made via Lovable will be committed automatically to this repo.
+🌐 SEO-optimized with Open Graph and Twitter Cards for sharing
 
-**Use your preferred IDE**
+💡 Simple and clean UI
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+⚡ Fast performance and optimized delivery
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🛠️ Tech Stack
+Frontend: HTML5, TypeScript, React
 
-Follow these steps:
+Fonts & Style: Likely styled with custom or external CSS (assumed)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Meta Integration:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Open Graph Protocol for social previews
 
-# Step 3: Install the necessary dependencies.
-npm i
+Twitter Card integration
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Scripts:
+
+gptengineer.js – likely AI-generated code logic
+
+Hosting: Lovable App Platform
+
+📁 Project Structure (Inferred)
+bash
+Copy
+Edit
+.
+├── index.html          # Main HTML file with meta tags and root mount point
+├── /src
+│   └── main.tsx        # Entry point for React app
+└── public/             # Static assets (if applicable)
+🧪 Getting Started (Local Setup)
+bash
+Copy
+Edit
+# Clone the repository
+git clone <repo-url>
+cd healthhub
+
+# Install dependencies
+npm install
+
+# Run the application
 npm run dev
-```
+📄 License
+This project is built for demonstration and personal use.
 
-**Edit a file directly in GitHub**
+Developed by Lovable
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/911bfeff-7a2a-4c36-abcd-dbf170305fe3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
