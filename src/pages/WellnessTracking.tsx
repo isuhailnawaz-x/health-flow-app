@@ -1,9 +1,8 @@
-
 import React from "react";
 import { MoodTracker } from "@/components/tracking/MoodTracker";
 import { SleepTracker } from "@/components/tracking/SleepTracker";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Water, Apple, Dumbbell } from "lucide-react";
+import { Droplet, Apple, Dumbbell } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
 import { useToast } from "@/hooks/use-toast";
@@ -34,7 +33,7 @@ export default function WellnessTracking() {
         <Card className="health-card">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <Water className="h-5 w-5 text-health-secondary" />
+              <Droplet className="h-5 w-5 text-health-secondary" />
               Water Intake
             </CardTitle>
           </CardHeader>
@@ -55,7 +54,7 @@ export default function WellnessTracking() {
                     glass <= 4 ? "bg-health-secondary" : "bg-gray-200"
                   } flex items-center justify-center`}
                 >
-                  <Water className={`h-5 w-5 ${glass <= 4 ? "text-white" : "text-gray-400"}`} />
+                  <Droplet className={`h-5 w-5 ${glass <= 4 ? "text-white" : "text-gray-400"}`} />
                 </button>
               ))}
             </div>
